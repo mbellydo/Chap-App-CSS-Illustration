@@ -1,0 +1,210 @@
+*{box-sizing: border-box;}
+html,body{ height: 750px; }
+body{
+    font-family: 'Rubik', sans-serif;
+    background: white;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px;
+}
+
+/*----MOBILE----*/
+@media (min-width:375px){
+    /*----BG COLUMNS----*/
+    .left-purple-column{
+        background: linear-gradient(to top,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+        border-radius: 0 0 100% 0;
+        width: 50%;
+        height: 25em;
+        position: absolute;
+        z-index: -1;
+        margin: -10px 0 0 -10px;
+    }
+    .right-grey-column{
+        background-color: #f6f4f9;
+        border-radius: 75% 0 0 0;
+        width: 50%;
+        height: 25em;
+        position: absolute;
+        z-index: -1;
+        margin: -100% 0 0 50%;
+    }
+
+    /*----PHONE----*/
+    .phone{
+        background-color: white;
+        border: 10px solid white;
+        border-radius: 30px 30px 25px 25px;
+        width: 75%;
+        margin: 25px auto 0;
+        box-shadow: 7px 7px 10px #aaaaaa;
+    }
+    /*--PHONE HEADER--*/
+    .phone-header{
+        background: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+        color: white;
+        padding: 20px 10px 10px 10px;
+        border-radius: 30px 30px 10px 10px;
+    }
+    .phone-header-overlay{
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        width: 65%;
+        height: 25px;
+        margin: -30px auto 10px;
+        display: block;
+    }
+    .phone-header img{
+        width: 40px;
+        border: 1px solid white;
+        border-radius: 50px;
+    }
+    .phone-header .arrow, .phone-header>img, .phone-header .name, .phone-header .dots{
+        display: inline-block;
+        margin: 0 5px;
+        vertical-align: middle;
+    }
+    .phone-header .name p{
+        margin: 5px 0;
+    }
+    .phone-header .name .name-samuel{
+        font-weight: bold;
+    }
+    .phone-header .name .available{
+        font-size: 12px;
+    }
+    /*--PHONE MAIN--*/
+    .phone-main{
+        background-color: #f5f3f8;
+        padding: 10px;
+        border-radius: 0 0 20px 20px;
+        /*margin-top: -15px;*/
+        font-size: 10px;
+        position: relative;
+    }
+    .message{
+        max-width: 60%;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 5px 5px 7px #aaaaaa;
+        margin: 5px auto;
+    }
+    .message.samuel{
+        display: block;
+        background-color: #ede4f5;
+        color: #9470b0;
+        border-radius: 15px 15px 15px 5px;
+        float: left;
+    }
+    .message.propietario{
+        display: block;
+        background-color: white;
+        color: #7c7982;
+        border-radius: 15px 15px 5px 15px;
+        float: right;
+    }
+    ul{
+        list-style: none;text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        float: right;
+        margin: 5px auto;
+    }
+    ul li{
+        margin-right: 10px;
+    }
+    ul img{
+        display: inline-block;
+        width: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 7px #aaaaaa;
+    }
+    .message.pay{
+        background: linear-gradient(to left,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+        color: white;
+        border-radius: 10px 10px 10px 5px;
+        float: left;
+    }
+    .message.pay span{
+        font-weight: bold;
+        float: right;
+    }
+    .message.type{
+        background-color: white;
+        color: #7c7982;
+        border-radius: 20px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .message.type span{
+        background-color: #3e234c;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 100%;
+        float: right;
+        margin-top: -5px;
+    }
+
+    /*----SIMPLE BOOKING----*/
+    .simple-booking{
+        text-align: center;
+        margin: 50px auto;
+        padding: 0 25px; 
+    }
+    .simple-booking h1{
+        color: #3e234c;
+        font-weight: unset;
+    }
+    .simple-booking p{
+        color: lightgray;
+    }
+    /*----ATTRIBUTION----*/
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+/*----DESKTOP----*/
+@media (min-width:1440px){
+    /*----BG COLUMNS----*/
+    .left-purple-column{
+        border-radius: 0 0 50% 50%;
+        width: 31%;
+        height: 45em;
+        margin: -10px 0 0 -100px;
+    }
+    .right-grey-column{
+        border-radius: 40% 50% 0 0;
+        width: 31%;
+        height: 45em;
+        margin: -45% 0 0 75%;
+    }
+    
+    /*----PHONE----*/
+    .phone{
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
+        float: left;
+    }
+    /*----SIMPLE BOOKING----*/
+    .simple-booking{
+        float: right;
+        text-align: left;
+        width: 30%;
+        margin-top: 20%;
+        margin-right: 20%;
+        margin-bottom: 20%;
+    }
+    /*----ATTRIBUTION----*/
+    .attribution{
+        display: inline-block;
+        width: 100%;
+    }
+}
