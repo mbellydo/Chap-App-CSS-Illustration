@@ -4,6 +4,8 @@
 
 ## Welcome! 👋
 
+Este proyecto ha sido creado por *[Marc Bellido](https://www.linkedin.com/in/marc-bellido-dorador-97721b175/)*.
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
