@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Este proyecto ha sido creado por **Marc Bellido**.
+Este proyecto ha sido creado por **[Marc Bellido](https://www.linkedin.com/in/marc-bellido-dorador-97721b175/)**.
 
 Thanks for checking out this front-end coding challenge.
 
